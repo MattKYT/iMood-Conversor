@@ -6,7 +6,7 @@ import os
 app = Flask(__name__)
 
 # imood XML url
-XML_URL = "YOUR URL HERE"
+XML_URL = "https://xml.imood.org/query.cgi?email=rayarmahedgehog@hotmail.com"
 
 @app.route("/data", methods=["GET"])
 def serve_custom_json():
